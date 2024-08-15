@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background-color: black;
-    /*background-image: url("../assets/fondo.jpg");*/
+    /*background-color: black;*/
+    background-image: url("../assets/fondo.jpg");
     color: white;
     text-align: center;
 }
@@ -31,13 +31,15 @@ body {
 }
 
 .image_section {
-    display: flex;
     margin: 20px;
+    padding: 20px;
     align-items: center;
     padding: 10px;
     border: 5px ridge #636060 ;
     border-radius: 10px 50px;
-
+}
+img{
+    width: 90%;
 }
 
 .codigo{
